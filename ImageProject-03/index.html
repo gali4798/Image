@@ -8,11 +8,11 @@
      
       <a-assets>
 
-      <img id="Tunnel" src="assets/tunnel(condensedx2).jpg">
-      <!-- <a-asset-item id="Tunnel" src="assets/tunnel(condensedx2).jpg"></a-asset-item>  -->
+      <img id="Tunnel" src="assets/tunnel.jpg">
+     
       <a-asset-item id="Gargoyle" src="assets/gargoyle.obj"></a-asset-item> 
       <a-asset-item id="Creature" src="assets/creature.obj"></a-asset-item>
-      <!-- <a-asset-item id="Texture" src="assets/Texturelabs_Grunge_310S.jpg"></a-asset-item> -->
+      
       <img id="tex1" src="assets/Texturelabs_Grunge_310S.jpg">
   
     </a-assets>
@@ -20,11 +20,12 @@
 
   <a-sky src="#Tunnel"></a-sky>
   
-  <a-text value="GAH!" position="0.5 2.25 -3" wrap-count="10" width="3" font="roboto" color="#FFFFFF"></a-text>
-  <a-text value="over there!" position="1 1.75 -3" wrap-count="10" width="1" font="roboto" color="#FFFFFF"></a-text>
-
+  
   <a-obj-model src="#Gargoyle" position="-50 -10 0" rotation="0 90 0" scale="30 30 30" color="#5c5c5c"></a-obj-model>
   <a-obj-model src="#Creature" position="0 0.75 -3" material="src:#tex1"></a-obj-model>
+
+  <a-text value="GAH!" position="0.5 2.25 -3" wrap-count="10" width="3" font="roboto" color="#FFFFFF"></a-text>
+  <a-text value="over there!" position="1 1.75 -3" wrap-count="10" width="1" font="roboto" color="#FFFFFF"></a-text>
 
     </a-scene>
   </body>
