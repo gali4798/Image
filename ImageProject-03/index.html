@@ -14,17 +14,17 @@
       <a-asset-item id="Creature" src="assets/creature.obj"></a-asset-item>
       <a-asset-item id="Skeleton" src="assets/BatSkeleton_Decimated.OBJ"></a-asset-item>
       
-      <img id="tex1" src="assets/Texturelabs_Grunge_310S.jpg">
+      <img id="tex1" src="assets/Texturelabs_Stone_146S.jpg">
+      <img id="tex2" src="assets/Texturelabs_Grunge_310S.jpg">
   
     </a-assets>
 
 
   <a-sky src="#Tunnel"></a-sky>
   
-  
-  <a-obj-model src="#Gargoyle" position="-50 -10 0" rotation="0 90 0" scale="30 30 30" color="#5c5c5c"></a-obj-model>
-  <a-obj-model src="#Creature" position="0 0.75 -3" material="src:#tex1"></a-obj-model>
-  <a-obj-model src="#Skeleton" position="50 -10 0" rotation="0 -90 0" scale="20 20 20" color="#5c5c5c"></a-obj-model>
+  <a-obj-model src="#Creature" position="0 0.75 -3" color="src:#tex1"></a-obj-model>
+  <a-obj-model src="#Gargoyle" position="-50 -10 0" rotation="0 90 0" scale="30 30 30" material="src:#tex2"></a-obj-model>
+  <a-obj-model src="#Skeleton" position="50 -10 0" rotation="0 -90 0" scale="20 20 20" material="src:#tex2"></a-obj-model>
 
   <a-text value="GAH!" position="0.5 2.25 -3" wrap-count="10" width="3" font="roboto" color="#FFFFFF"></a-text>
   <a-text value="over there!" position="1 1.75 -3" wrap-count="10" width="1" font="roboto" color="#FFFFFF"></a-text>
